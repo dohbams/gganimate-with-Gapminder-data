@@ -111,7 +111,7 @@ p <- ggplot(df3, aes(gdp_pcap, lifeExp, size = population, colour = continent)) 
     
     ', x = '
     
-    GDP per Capita', y = 'Life Expectancy
+    GDP per Capita ($)', y = 'Life Expectancy (Years)
     
     ') + 
   theme(legend.key = element_rect(fill = 'white'),
